@@ -3,6 +3,7 @@ import maplibregl from "maplibre-gl";
 import DeckGL from "@deck.gl/react";
 import { GeoJsonLayer } from "@deck.gl/layers";
 import { useEffect, useState } from 'react';
+import 'maplibre-gl/dist/maplibre-gl.css';
 
 const Map = () => {
 
